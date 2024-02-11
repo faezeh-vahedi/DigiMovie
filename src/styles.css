@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css");
+@import url("../node_modules/@flaticon/flaticon-uicons/css/regular/all.css");
+
+body {
+  background-color: #040404;
+  direction: rtl;
+  overflow-x: hidden;
+  font-family: 'Yekan';
+}
+
+@font-face {
+	font-family: 'Yekan';
+	src: url( './assets/fonts/Yekan.eot' );
+	src: url( './assets/fonts/Yekan.eot?#iefix' ) format( 'embedded-opentype' ),
+		url( './assets/fonts/Yekan.woff2' ) format( 'woff2' ),
+		url( './assets/fonts/Yekan.woff' ) format( 'woff' ),
+		url( './assets/fonts/Yekan.ttf' ) format( 'truetype' ),
+		url( './assets/fonts/Yekan.svg#Yekan' ) format( 'svg' );
+}
