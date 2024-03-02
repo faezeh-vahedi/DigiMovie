@@ -273,6 +273,104 @@
             </div>
           </div>
 
+          <div class="persian-dubbled">
+            <div class="persian-dubbled-title-box">
+              <div class="persian-dubbled-title">
+                <div class="persian-dubbled-icon-holder">
+                  <span class="fi fi-rs-circle-microphone"></span>
+                  <div class="FA">FA</div>
+                </div>
+                <div class="persian-dubbled-title-holder">
+                  <h3>فیلم‌های</h3>
+                  <h4>دوبله فارسی</h4>
+                </div>
+              </div>
+            </div>
+            <div class="persian-dubbled-carousell">
+              <swiper-container>
+                <swiper-slide>
+                  <div class="persian-dubbled-cover">
+                    <img src="" alt="">
+                  </div>
+                  <h2>Jurassic World 2015</h2>
+                  <div class="imdb-rate-dubbled">
+                    <strong>6.9</strong>
+                    <small>/10</small>
+                  </div>
+                </swiper-slide>
+              </swiper-container>
+            </div>
+          </div>
+
+          <div class="category-film">
+            <div class="category-film-title-box">
+              <div class="category-film-title">
+                <div class="category-film-icon-holder">
+                  <span class="fi fi-rs-camera-movie"></span>
+                </div>
+                <div class="category-film-title-holder">
+                  <h3>دسته بندی</h3>
+                  <h4>فیلم‌ها</h4>
+                </div>
+              </div>
+            </div>
+            <div class="category-film-items">
+              <ul>
+                <li *ngFor="let data of film_category">
+                  <span class="li-list-style">> </span>
+                  <span class="li-name">{{data.name}}</span>
+                  <span class="li-count">({{data.count}})</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="category-series">
+            <div class="category-series-title-box">
+              <div class="category-series-title">
+                <div class="category-series-icon-holder">
+                  <span class="fi fi-rs-camera-movie"></span>
+                </div>
+                <div class="category-series-title-holder">
+                  <h3>دسته بندی</h3>
+                  <h4>فیلم‌ها</h4>
+                </div>
+              </div>
+            </div>
+            <div class="category-series-items">
+              <ul>
+                <li *ngFor="let data of series_category">
+                  <span class="li-list-style">> </span>
+                  <span class="li-name">{{data.name}}</span>
+                  <span class="li-count">({{data.count}})</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="persian-dubbled">
+            <div class="persian-dubbled-title-box">
+              <div class="persian-dubbled-title">
+                <div class="persian-dubbled-icon-holder">
+                  <span class="fi fi-br-filmsfi fi-bs-circle-video"></span>
+                </div>
+                <div class="persian-dubbled-title-holder">
+                  <h3>تریلرها</h3>
+                  <h4>به زودی</h4>
+                </div>
+              </div>
+            </div>
+            <div class="persian-dubbled-carousell">
+              <div class="persian-dubbled-cover">
+                <img src="" alt="">
+              </div>
+              <h2>Jurassic World 2015</h2>
+              <div class="imdb-rate-dubbled">
+                <strong>6.9</strong>
+                <small>/10</small>
+              </div>
+            </div>
+          </div>
 
         </div>
         <div class="col-8 new-list no-pad">

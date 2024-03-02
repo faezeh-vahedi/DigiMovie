@@ -3,12 +3,14 @@
 }
 
 .site-container {
-  height: 7000px;
+
 }
 
 .head-pic {
   width: 100%;
-  position: relative;
+  position: absolute;
+  overflow: hidden;
+  height: 605px;
   /* z-index: -1; */
 }
 
@@ -39,7 +41,7 @@
 
 .bottom-header {
   height: 86px;
-  background-color: #3a3a3a;
+  background-color: #181818;
   opacity: 0.9;
 }
 
@@ -67,7 +69,7 @@
   height: 38px;
   border-radius: 50px;
   right: 0;
-  background-color: #454545;
+  background-color: #1d1d1d;
   color: white;
   border: none;
   font-size: 0.97rem;
@@ -90,7 +92,7 @@
   height: 38px;
   right: 121px;
   border-radius: 50px;
-  background-color: #454545;
+  background-color: #1d1d1d;
   color: white;
   border: none;
   font-size: 0.97rem;
@@ -238,12 +240,14 @@
   right: 0;
 }
 
-.swiper-page-right-pic-img, .swiper-page-center-pic-img{
+.swiper-page-right-pic-img,
+.swiper-page-center-pic-img {
   background-position: center center;
   background-size: cover;
 }
 
-.swiper-page-right-pic-img img, .swiper-page-center-pic-img img{
+.swiper-page-right-pic-img img,
+.swiper-page-center-pic-img img {
   width: 100%;
   height: 100%;
 }
@@ -274,7 +278,7 @@
 
 .smart-search-right {
   border-radius: 10px;
-  background-color: #2f2f2f;
+  background-color: #2b2b2b;
   /* background-color: #fff; */
   width: 100%;
   height: 100%;
@@ -373,7 +377,8 @@
   padding: 3px;
 }
 
-.country, .quality {
+.country,
+.quality {
   width: 239px;
   height: 35px;
   display: inline-block;
@@ -394,7 +399,8 @@
   font-size: 15px;
 }
 
-.country select, .quality select {
+.country select,
+.quality select {
   width: 190px;
   height: 35px;
   float: left;
@@ -692,13 +698,18 @@ li {
   padding: 10px;
 }
 
-.last-series-icon {
+.last-series-icon,
+.category-film-title-box,
+.category-series-title-box  {
   width: 100%;
   height: 67px;
   padding: 10px 0 20px 0;
 }
 
-.last-series-iecon-holder {
+.last-series-iecon-holder,
+.persian-dubbled-icon-holder,
+.category-film-icon-holder,
+.category-series-icon-holder {
   /* display: inline-block; */
   float: right;
   width: 25px;
@@ -708,7 +719,10 @@ li {
   font-size: 30px;
 }
 
-.last-series-title-holder {
+.last-series-title-holder,
+.persian-dubbled-title-holder,
+.category-film-title-holder,
+.category-series-title-holder {
   /* display: inline-block; */
   float: left;
   height: 25px;
@@ -718,11 +732,17 @@ li {
   color: #fff;
 }
 
-.last-series-title-holder h3 {
+.last-series-title-holder h3,
+.persian-dubbled-title-holder h3,
+.category-film-title-holder h3,
+.category-series-title-holder h3 {
   font-size: 16px;
 }
 
-.last-series-title-holder h4 {
+.last-series-title-holder h4,
+.persian-dubbled-title-holder h4,
+.category-film-title-holder h4,
+.category-series-title-holder h4 {
   font-size: 12px;
 }
 
@@ -788,3 +808,113 @@ li {
   width: 100%;
   height: 100%;
 }
+
+.persian-dubbled {
+  height: 519px;
+  width: 100%;
+  background-color: #242424;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.persian-dubbled-title-box {
+  width: 100%;
+  height: 67px;
+  padding: 10px 0 20px 0;
+  position: relative;
+}
+
+
+.FA {
+  width: 23px;
+  height: 16px;
+  background-color: #000;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 15px;
+  position: absolute;
+  top: 35px;
+  right: 142px;
+}
+
+.persian-dubbled-carousell {
+  width: 100%;
+  height: 413px;
+}
+
+.persian-dubbled-cover {
+  width: 100%;
+  height: 350px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.persian-dubbled-carousell h2 {
+  font-size: 120%;
+  font-weight: 300;
+  color: #fff;
+  margin: 20px 0 5px;
+  text-align: center;
+}
+
+.imdb-rate-dubbled {
+  text-align: center;
+}
+
+.imdb-rate-dubbled strong {
+  color: #eb8307;
+  font-size: 22px;
+}
+
+.imdb-rate-dubbled small {
+  color: #fff;
+}
+
+.category-film {
+  width: 100%;
+  height: 1132px;
+  background-color: #242424;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.category-series {
+  width: 100%;
+  height: 977px;
+  background-color: #242424;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+li{
+  list-style: none;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+.li-list-style {
+  color: #bebebe;
+}
+
+.li-name {
+  color: #bebebe;
+  margin-right: 7px;
+}
+
+.li-name:hover {
+  cursor: pointer;
+  color: #eb8307 ;
+}
+
+.li-count {
+  color: #bebebe;
+  float: left;
+}
+
+
